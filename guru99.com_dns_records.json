@@ -1,0 +1,61 @@
+{
+    "domain": "guru99.com",
+    "ip_address": "104.16.151.108",
+    "email_security": {
+        "spf": true,
+        "dkim": true,
+        "dmarc": true,
+        "all_security_measures_implemented": true
+    },
+    "records": {
+        "A": [
+            "104.16.151.108",
+            "104.16.150.108"
+        ],
+        "AAAA": [
+            "2606:4700::6810:966c",
+            "2606:4700::6810:976c"
+        ],
+        "MX": [
+            "5 alt2.aspmx.l.google.com.",
+            "10 alt4.aspmx.l.google.com.",
+            "1 aspmx.l.google.com.",
+            "5 alt1.aspmx.l.google.com.",
+            "10 alt3.aspmx.l.google.com."
+        ],
+        "NS": [
+            "vera.ns.cloudflare.com.",
+            "phil.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"v=spf1 include:_spf.elasticemail.com include:_spf.google.com include:_spf.sparkpostmail.com ~all\"",
+            "\"google-site-verification=bTaeTGTkTEtnZhgpGY8XDFTc6UihBpHZ11vQqL_6mDo\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "phil.ns.cloudflare.com. dns.cloudflare.com. 2405559673 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=DMARC1;p=reject;sp=reject;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:support@guru99.com\""
+        ],
+        "DKIM": [
+            "google: \"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8p3oitrnNhvaN2rYc+fo+gf/y4GpBMISf8wE0zJWhPiJdi76ywIaLcyupudicn8CCkPlOqqYkmkd7dOXaMb7woevF6QS4lLSo0RbXLmj2a0HPrL2TgC3H+82RmLSzfbRDhxZ2aXaMgosR1DMwHQD4Bie9/Z/rcCg0KyTjQ6II1rR2UJ74nvkkmm6chnMa3TzP\" \"a8Cq7iJwKUZ2/eLj/YANrgz1G77KzjW51IuihT3QVOyW9pFgI6xor6G9qAN5uSNLVjCV8FiwmQSDlHD4qwfZ3a4P+XWcrYO5stOHcgX1kZ0sHU/+6lwTskkShR1FwFn5s2VNzdAbULg6GhkrC3TjwIDAQAB\"",
+            "dns-api: t=y; o=~;"
+        ]
+    }
+}

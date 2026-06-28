@@ -1,0 +1,53 @@
+{
+    "domain": "stresser.zone",
+    "ip_address": "172.234.24.152",
+    "email_security": {
+        "spf": true,
+        "dkim": true,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "172.234.24.152",
+            "172.234.218.95",
+            "172.234.24.173"
+        ],
+        "AAAA": [],
+        "MX": [
+            "70 mx156.hostedmxserver.com."
+        ],
+        "NS": [
+            "ns1.parklogic.com.",
+            "ns2.parklogic.com."
+        ],
+        "TXT": [
+            "\"v=spf1 -all\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "ns1.parklogic.com. hostmaster.stresser.zone. 2019102301 3600 7200 1209600 3600"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=spf1 -all\""
+        ],
+        "DKIM": [
+            "dns-api: v=spf1 -all"
+        ]
+    }
+}

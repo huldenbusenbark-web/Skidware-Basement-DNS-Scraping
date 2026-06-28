@@ -1,0 +1,56 @@
+{
+    "domain": "steamrip.com",
+    "ip_address": "104.26.3.12",
+    "email_security": {
+        "spf": true,
+        "dkim": false,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "104.26.2.12",
+            "172.67.70.25",
+            "104.26.3.12"
+        ],
+        "AAAA": [
+            "2606:4700:20::681a:30c",
+            "2606:4700:20::681a:20c",
+            "2606:4700:20::ac43:4619"
+        ],
+        "MX": [
+            "10 eforward3.registrar-servers.com.",
+            "15 eforward4.registrar-servers.com.",
+            "10 eforward2.registrar-servers.com.",
+            "20 eforward5.registrar-servers.com.",
+            "10 eforward1.registrar-servers.com."
+        ],
+        "NS": [
+            "rick.ns.cloudflare.com.",
+            "eleanor.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"google-site-verification=R29_k8RATHVuhfjDrKlUeaQGQ8Xrdj58ZY2EWAqtlKA\"",
+            "\"v=spf1 include:spf.efwd.registrar-servers.com ~all\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "eleanor.ns.cloudflare.com. dns.cloudflare.com. 2407068447 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": []
+    }
+}

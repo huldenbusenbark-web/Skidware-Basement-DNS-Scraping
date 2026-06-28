@@ -1,0 +1,62 @@
+{
+    "domain": "fitgirl-repacks.site",
+    "ip_address": "190.115.31.179",
+    "email_security": {
+        "spf": true,
+        "dkim": true,
+        "dmarc": true,
+        "all_security_measures_implemented": true
+    },
+    "records": {
+        "A": [
+            "190.115.31.179"
+        ],
+        "AAAA": [],
+        "MX": [
+            "10 cadiamail.org."
+        ],
+        "NS": [
+            "ns2.terradns.org.",
+            "ns1.terradns.org."
+        ],
+        "TXT": [
+            "\"v=spf1 mx -all\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "ns1.terradns.org. soa.terradns.org. 2025090214 14400 3600 1209600 86400"
+        ],
+        "CAA": [
+            "0 issuewild \";\"",
+            "0 iodef \"caa@fitgirl-repacks.site\"",
+            "0 issue \"letsencrypt.org\""
+        ],
+        "DNSKEY": [
+            "256 3 13 JVn8ksNJ2NXrZqA1ihOglxyI38ac9sDF GlpV0ueR/6PeaFXRrjd1ocueeXQFCVi1 WQgbTrnE01BgmwP8bjrgTQ==",
+            "257 3 13 jt1LSgVJxh6/PrAQdH0w/vZGZgeWO2Ev AD1g2oM7YMRdWf1ctnRNepqgxk+b3dw2 BgSyrKbllNn2dPKTD+bitg=="
+        ],
+        "DS": [
+            "24313 13 2 2d9081ca04d90506819a6d599c8ab98844eb0ab1e30d70adb74795a64690a7e9"
+        ],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [
+            "_dmarc.fitgirl-repacks.site. A NS SOA MX TXT RRSIG NSEC DNSKEY CDS CDNSKEY CAA"
+        ],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=DMARC1; p=reject;\""
+        ],
+        "DKIM": [
+            "mail: \"v=DKIM1; h=sha256; k=rsa; s=email; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1oyMFsImhCKTPBCeELCCHzOsKNS3uUPwMHfapmc2RWWqCFnmCj6VAgDKcsXJ879YX9lsH110/KuLPD4d+uzTyslNFSEkRxWTTfO0zGzre+CIGkbMN2ZFDgZQozotdOykdgaf9w/S1qbO3tcgW4n+BblDj77rYc2NdCy12t/ygZEFpC\" \"+VC1k18QkYMygLQgO9tZHVaOnmCydChMUA+ycAVvSyFb9Xhi/nihVZO9znn3Iye10XMhvS5vtEVOG9/MLEAPSeHlNjY8igoHgkBiD5xvJovUxugD433hyanTmDaZAKR7v+HJv9/GkXpqN8r0+NFTHPxKuEZM1sD6xCVi+YDQIDAQAB\""
+        ]
+    }
+}

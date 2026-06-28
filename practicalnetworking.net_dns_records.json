@@ -1,0 +1,55 @@
+{
+    "domain": "practicalnetworking.net",
+    "ip_address": "172.67.162.68",
+    "email_security": {
+        "spf": true,
+        "dkim": true,
+        "dmarc": true,
+        "all_security_measures_implemented": true
+    },
+    "records": {
+        "A": [
+            "172.67.162.68",
+            "104.21.73.116"
+        ],
+        "AAAA": [
+            "2606:4700:3031::6815:4974",
+            "2606:4700:3037::ac43:a244"
+        ],
+        "MX": [
+            "10 _dc-mx.eb5e7610bec1.practicalnetworking.net."
+        ],
+        "NS": [
+            "chin.ns.cloudflare.com.",
+            "damian.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"v=spf1 include:_spf.mlsend.com +a +mx +ip4:104.225.208.27 +ip4:192.249.124.38 ~all\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "chin.ns.cloudflare.com. dns.cloudflare.com. 2406169468 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=DMARC1; p=none; sp=none; rf=afrf; pct=100; ri=86400\""
+        ],
+        "DKIM": [
+            "default: \"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA46n9pu/b1OZh81qfLnTV/QrCiCu9vWQwuvSxBroqY3+Q8/1ctVbR3k/wLM/PKPmN6nQ2yBtG8GJKGDwFxG6b0OrZdL/pww3j7NWVVRyVzurX8lW15fzae04AsC2gWEJEnKjEmfzq75OhGYbtsww11hdT1sBWalfKoxlEl2/Gv4AxeGnc8Zo8O9pUgmq84Crcg\" \"3GrHZYXxBLG2CS6JlcX9srjjtwe4v/BcpYK3dMX2bDcPtBH5S4XIFw09x/9AeDOcdhJee/g3XYfOYAgDJ9XfQJPiwpQFRGymDr7wVIHaqqEOdQeboitG0N+1RsqQoSF6hJzMrmVYm6FktR7aHoySwIDAQAB;\""
+        ]
+    }
+}

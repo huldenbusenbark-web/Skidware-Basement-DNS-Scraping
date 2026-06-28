@@ -1,0 +1,45 @@
+{
+    "domain": "maxstresser.com",
+    "ip_address": "104.21.48.171",
+    "email_security": {
+        "spf": false,
+        "dkim": false,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "104.21.48.171",
+            "172.67.187.103"
+        ],
+        "AAAA": [
+            "2606:4700:3034::6815:30ab",
+            "2606:4700:3035::ac43:bb67"
+        ],
+        "MX": [],
+        "NS": [
+            "audrey.ns.cloudflare.com.",
+            "elliot.ns.cloudflare.com."
+        ],
+        "TXT": [],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "audrey.ns.cloudflare.com. dns.cloudflare.com. 2406945225 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": []
+    }
+}

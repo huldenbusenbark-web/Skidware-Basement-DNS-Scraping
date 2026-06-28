@@ -1,0 +1,61 @@
+{
+    "domain": "fmhy.net",
+    "ip_address": "104.21.93.123",
+    "email_security": {
+        "spf": true,
+        "dkim": false,
+        "dmarc": true,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "172.67.209.224",
+            "104.21.93.123"
+        ],
+        "AAAA": [
+            "2606:4700:3037::ac43:d1e0",
+            "2606:4700:3033::6815:5d7b"
+        ],
+        "MX": [
+            "96 route1.mx.cloudflare.net.",
+            "66 route3.mx.cloudflare.net.",
+            "1 route2.mx.cloudflare.net."
+        ],
+        "NS": [
+            "casey.ns.cloudflare.com.",
+            "may.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"v=spf1 include:_spf.mx.cloudflare.net ~all\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "casey.ns.cloudflare.com. dns.cloudflare.com. 2406855574 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [
+            "256 3 13 oJMRESz5E4gYzS/q6XDrvU1qMPYIjCWz JaOau8XNEZeqCYKD5ar0IRd8KqXXFJkq mVfRvMGPmM1x8fGAa2XhSA==",
+            "257 3 13 mdsswUyr3DPW132mOi8V9xESWE8jTo0d xCjjnopKl+GqJxpVXckHAeF+KkxLbxIL fDLUT0rAK9iUzy1L53eKGQ=="
+        ],
+        "DS": [
+            "2371 13 2 98a5e47fcbb73349b29ab35a439d98b0924e4b5b464c1554fc22f8c971c341ef"
+        ],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [
+            "\\000.fmhy.net. A NS SOA HINFO MX TXT AAAA LOC SRV NAPTR CERT SSHFP RRSIG NSEC DNSKEY TLSA SMIMEA HIP CDS CDNSKEY OPENPGPKEY SVCB HTTPS URI CAA"
+        ],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=DMARC1;  p=none; rua=mailto:5a9b7a9ea91f4842b5de010035629722@dmarc-reports.cloudflare.net\""
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "domain": "cybertemp.xyz",
+    "ip_address": "104.21.18.67",
+    "email_security": {
+        "spf": true,
+        "dkim": false,
+        "dmarc": true,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "104.21.18.67",
+            "172.67.180.185"
+        ],
+        "AAAA": [
+            "2606:4700:3033::ac43:b4b9",
+            "2606:4700:3036::6815:1243"
+        ],
+        "MX": [
+            "10 mail.cybertemp.xyz."
+        ],
+        "NS": [
+            "chris.ns.cloudflare.com.",
+            "lovisa.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"google-site-verification=lmi_yBCaO4IsOWldLBR7NxVSBQlnYDsQF2KYDqq-4s4\"",
+            "\"v=spf1 a mx include:_spf.google.com -all\"",
+            "\"heleket=711af6b2\"",
+            "\"heleket=a6f3c031\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "chris.ns.cloudflare.com. dns.cloudflare.com. 2405388982 10000 2400 604800 1800"
+        ],
+        "CAA": [
+            "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+            "0 issue \"letsencrypt.org\"",
+            "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+            "0 issue \"comodoca.com\"",
+            "0 issue \"ssl.com\"",
+            "0 issuewild \"ssl.com\"",
+            "0 issuewild \"letsencrypt.org\"",
+            "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+            "0 issuewild \"comodoca.com\"",
+            "0 issue \"pki.goog; cansignhttpexchanges=yes\""
+        ],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": [],
+        "DMARC": [
+            "\"v=DMARC1; p=none;\""
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "domain": "yarrlist.net",
+    "ip_address": "104.21.28.241",
+    "email_security": {
+        "spf": false,
+        "dkim": false,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "104.21.28.241",
+            "172.67.147.231"
+        ],
+        "AAAA": [
+            "2606:4700:3031::6815:1cf1",
+            "2606:4700:3037::ac43:93e7"
+        ],
+        "MX": [],
+        "NS": [
+            "kai.ns.cloudflare.com.",
+            "jo.ns.cloudflare.com."
+        ],
+        "TXT": [
+            "\"google-site-verification=DaeLYrxF1YQslq7NsOkAZzchVFgSyMm3eLTGxOEaDhI\""
+        ],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "jo.ns.cloudflare.com. dns.cloudflare.com. 2407119474 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": []
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "domain": "hydrahd.ru",
+    "ip_address": "104.21.58.133",
+    "email_security": {
+        "spf": false,
+        "dkim": false,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "104.21.58.133",
+            "172.67.204.14"
+        ],
+        "AAAA": [
+            "2606:4700:3030::ac43:cc0e",
+            "2606:4700:3032::6815:3a85"
+        ],
+        "MX": [],
+        "NS": [
+            "karsyn.ns.cloudflare.com.",
+            "pablo.ns.cloudflare.com."
+        ],
+        "TXT": [],
+        "CNAME": [],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [
+            "karsyn.ns.cloudflare.com. dns.cloudflare.com. 2405385397 10000 2400 604800 1800"
+        ],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": []
+    }
+}

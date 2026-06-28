@@ -1,0 +1,39 @@
+{
+    "domain": "takeitdown.ncmec.org",
+    "ip_address": "141.193.213.11",
+    "email_security": {
+        "spf": false,
+        "dkim": false,
+        "dmarc": false,
+        "all_security_measures_implemented": false
+    },
+    "records": {
+        "A": [
+            "141.193.213.10",
+            "141.193.213.11"
+        ],
+        "AAAA": [],
+        "MX": [],
+        "NS": [],
+        "TXT": [],
+        "CNAME": [
+            "wp.wpenginepowered.com."
+        ],
+        "SRV": [],
+        "PTR": [],
+        "SOA": [],
+        "CAA": [],
+        "DNSKEY": [],
+        "DS": [],
+        "SSHFP": [],
+        "TLSA": [],
+        "CERT": [],
+        "IPSECKEY": [],
+        "NAPTR": [],
+        "NSEC": [],
+        "NSEC3": [],
+        "RRSIG": [],
+        "HINFO": [],
+        "LOC": []
+    }
+}
